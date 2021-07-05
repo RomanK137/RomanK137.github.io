@@ -9,6 +9,8 @@
     <meta property="og:title" content="Это моя первая страница...">
     
     <title>Андрей Браун - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -33,11 +35,10 @@
         <div class="title__container">
             <h1>Привет <br> Я Андрей Браун</h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
-        </div>
-        <div class="boy">
-            <img src="img/boy.png" alt="Изображение недоступно">
+            <form action="#">
+                <input type="submit" value="Обо мне">
+                <input type="submit" value="Мои работы">
+            </form>
         </div>
     </div>
     
@@ -50,10 +51,12 @@
             <div class="miniboy">
                 <img src="img/boy_mini.png" alt="Изображение недоступно">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi possimus officiis recusandae mollitia ratione facilis natus, porro libero impedit debitis doloribus, nulla, reprehenderit voluptas sunt. Modi, velit, voluptate! Dolor culpa recusandae amet dicta rerum! Magni.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatem veritatis non nemo esse consequatur voluptas, ad tempora quos maxime officia cupiditate placeat deserunt, vel quam ullam numquam autem sequi laborum alias blanditiis. Consequuntur, dolor.</p>
-            <form action="#">
-                <input type="submit" value="Скачать резюме">
+            <div class="about_me_text">
+                <p id="am1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi possimus officiis recusandae mollitia ratione facilis natus, porro libero impedit debitis doloribus, nulla, reprehenderit.</p>
+                <p id="am2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatem veritatis non nemo esse consequatur voluptas, ad tempora quos maxime officia cupiditate placeat deserunt.</p>
+            </div>
+            <form action="#" >
+                <input type="submit" value="Скачать резюме" id="dr">
             </form>
         </div>
     </div>
